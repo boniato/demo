@@ -29,6 +29,11 @@ dependencies {
 	compile('org.springframework.boot:spring-boot-starter-data-jpa')
 	compile('org.springframework.boot:spring-boot-starter-security')
 	compile('org.springframework.boot:spring-boot-starter-web')
+	
+	compile('org.apache.tiles:tiles-extras:3.0.8')
+	compile('org.apache.tiles:tiles-servlet:3.0.8')
+	compile('org.apache.tiles:tiles-jsp:3.0.8')
+	
 	runtime('com.h2database:h2')
 	runtime('mysql:mysql-connector-java')
 	compileOnly('org.projectlombok:lombok')
